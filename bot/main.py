@@ -5,16 +5,8 @@ from dotenv import load_dotenv
 
 from openai_helper import OpenAIHelper, default_max_tokens
 from telegram_bot import ChatGPTTelegramBot
-from telegram.ext.TELEGRAM_BOT_TOKEN import TELEGRAM_BOT_TOKEN
-from telegram.ext.OPENAI_API_KEY import OPENAI_API_KEY
+TELEGRAM_BOT_TOKEN = "6277326065:AAFiZUz_cXPs88QppLkvbXNA2QPjbKIaDEE"
 
-TELEGRAM_BOT_TOKEN = TELEGRAM_BOT_TOKEN("6277326065:AAFiZUz_cXPs88QppLkvbXNA2QPjbKIaDEE",
-
-                  use_context=True)
-
-OPENAI_API_KEY = OPENAI_API_KEY("your_own_API_Token got from BotFather",
-
-                  use_context=True)
 def main():
     # Read .env file
     load_dotenv()
