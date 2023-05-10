@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 from openai_helper import OpenAIHelper, default_max_tokens
 from telegram_bot import ChatGPTTelegramBot
-TELEGRAM_BOT_TOKEN = "6277326065:AAFiZUz_cXPs88QppLkvbXNA2QPjbKIaDEE"
+
 
 def main():
     # Read .env file
