@@ -18,7 +18,7 @@ def main():
     )
 
     # Check if the required environment variables are set
-    required_values = ['TELEGRAM_BOT_TOKEN', 'OPENAI_API_KEY']
+    required_values = ['6277326065:AAFiZUz_cXPs88QppLkvbXNA2QPjbKIaDEE', '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']
     missing_values = [value for value in required_values if os.environ.get(value) is None]
     if len(missing_values) > 0:
         logging.error(f'The following environment values are missing in your .env: {", ".join(missing_values)}')
